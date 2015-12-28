@@ -10,8 +10,8 @@ import Foundation
 import Vista
 
 #if os(Linux)
-import CX11.Xlib
-import CX11.X
+import CGLX.Glx
+import CGLX.X
 #endif
 
 #if os(Linux)
